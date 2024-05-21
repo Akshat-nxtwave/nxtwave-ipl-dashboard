@@ -4,14 +4,17 @@ import TeamInfo from './components/TeamInfo';
 import Home from './components/Home';
 
 function App() {
+  console.log(window.location);
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/team-matches/:id" element={<TeamInfo />} />
+          
+          <Route path="team-matches/:id" element={<TeamInfo />} />
           <Route path="*" element={<div>404</div>} />
-        </Routes>
+          <Route path="nxtwave-ipl-dashboard" element={<Home />} />
+
+          </Routes>
       </BrowserRouter>
     </div>
   );
