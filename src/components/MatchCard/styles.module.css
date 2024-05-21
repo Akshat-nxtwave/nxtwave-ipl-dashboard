@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    flex-direction: column;
+    justify-content:center;
+    width:30%;
+    color: #fff;
+    background-color: #1e293b;
+    border:1px solid #fff;
+    border-radius: 8px;
+    margin-bottom:20px;
+    @media screen and (max-width: 768px) {
+        width: 40%;
+        
+
+    }   
+}
+
+.result{
+    text-align: center;
+    text-wrap: wrap;
+}
+
