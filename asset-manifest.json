@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nxtwave-ipl-dashboard/static/css/main.945af690.css",
+    "main.js": "/nxtwave-ipl-dashboard/static/js/main.b48dedf7.js",
+    "static/js/453.4845de0d.chunk.js": "/nxtwave-ipl-dashboard/static/js/453.4845de0d.chunk.js",
+    "index.html": "/nxtwave-ipl-dashboard/index.html",
+    "main.945af690.css.map": "/nxtwave-ipl-dashboard/static/css/main.945af690.css.map",
+    "main.b48dedf7.js.map": "/nxtwave-ipl-dashboard/static/js/main.b48dedf7.js.map",
+    "453.4845de0d.chunk.js.map": "/nxtwave-ipl-dashboard/static/js/453.4845de0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.945af690.css",
+    "static/js/main.b48dedf7.js"
+  ]
+}
