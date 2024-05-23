@@ -12,7 +12,7 @@ const TeamsContainer = () => {
   ) : (
     <div className={styles.container}>
       {(data?.teams || []).map((team) => (
-        <Link to={`/team-matches/${team?.id}`}  className={styles.teamCard} key={team.id}>
+        <Link to={`nxtwave-ipl-dashboard/team-matches/${team?.id}`}  className={styles.teamCard} key={team.id}>
           <div className={styles.logo}>
             <img src={team.team_image_url} alt={team.name} height="100%" />
           </div>
