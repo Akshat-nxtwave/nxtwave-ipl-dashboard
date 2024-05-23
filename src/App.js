@@ -10,9 +10,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           
-          {/* <Route path="team-matches/:id" element={<TeamInfo />} />  */}
+          <Route path="team-matches/:id" element={<TeamInfo />} /> 
           <Route path="nxtwave-ipl-dashboard" element={<Home />} />
-          <Route path="nxtwave-ipl-dashboard/team-matches/:id" element={<TeamInfo />} />
+          {/*<Route path="nxtwave-ipl-dashboard/team-matches/:id" element={<TeamInfo />} /> */}
           <Route path="*" element={<div>404</div>} />
           </Routes>
       </BrowserRouter>
